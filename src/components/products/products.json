@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Tv Pantalla 49",
+        "price": "usd 1000",
+        "category": "tv ",
+        "img": "./assets/tv.jfif",
+        "stock": 25,
+        "description": "Smart 49"
+    },
+    {
+        "id": 2,
+        "name": "speaker Bose",
+        "price": "usd 800",
+        "category": "speaker",
+        "img": "assets/BOSE.jfif",
+        "stock": 16,
+        "description": "Parlante"
+    },
+    {
+        "id": 3,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    }
+]
