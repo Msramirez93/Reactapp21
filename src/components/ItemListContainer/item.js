@@ -1,7 +1,5 @@
-//card img,id,price,title
-// card de bootstrap
-
-const Item = ({products}) => {
+// card de bootstrap,card img,id,price,title
+    const Item = ({products}) => {
 
     const handleClick = (evt) => {
         evt.stopPropagation()
@@ -14,7 +12,7 @@ return (
                 <h4 className="card-title">Nombre:{products.name}</h4>
                 <p className="card-text">Categoria:{products.catergory}</p>
                 <p className="card-text">Precio:{products.price}</p> 
-                {/*<a href="#" id='${producto.id}' clasName="btn btn-dark btn-compra">COMPRAR</a>*/}
+                <button id='${producto.id}' className="btn btn-dark btn-compra">COMPRAR</button>
                 </div>
         </div>
 )
