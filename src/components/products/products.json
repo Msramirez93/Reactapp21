@@ -25,5 +25,59 @@
         "img": "./assets/xbox.jfif",
         "stock": 10,
         "description": "consola de video juego"
+    },
+    {
+        "id": 4,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    },
+    {
+        "id": 6,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    },
+    {
+        "id": 7,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    },
+    {
+        "id": 8,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    },
+    {
+        "id": 9,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
+    },
+    {
+        "id": 10,
+        "name": "xbox one",
+        "price": "usd 1000",
+        "category": "Games",
+        "img": "./assets/xbox.jfif",
+        "stock": 10,
+        "description": "consola de video juego"
     }
 ]

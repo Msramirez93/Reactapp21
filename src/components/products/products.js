@@ -5,6 +5,15 @@ export const getProducts = () => {
         setTimeout(() => resolve(products), 3000)
     })
 }
+export const getItem = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(products[0]);
+            reject('No se pueden cargar los productos');
+        }, 2000);
+    });
+}
+
 const categories = [
     {id:'1',description:"Smart 49"},
     {id:'2',description:"Parlante"},
