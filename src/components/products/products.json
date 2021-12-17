@@ -28,56 +28,56 @@
     },
     {
         "id": 4,
-        "name": "xbox one",
+        "name": "play",
         "price": "usd 1000",
         "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "img": "./assets/play.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "consola play 4"
     },
     {
         "id": 6,
-        "name": "xbox one",
+        "name": "play 5",
         "price": "usd 1000",
         "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "img": "./assets/play5.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "consola play 5"
     },
     {
         "id": 7,
-        "name": "xbox one",
+        "name": "microfono",
         "price": "usd 1000",
-        "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "category": "pc-gammer",
+        "img": "./assets/microfono.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "microfono "
     },
     {
         "id": 8,
-        "name": "xbox one",
+        "name": "teclado",
         "price": "usd 1000",
-        "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "category": "pc-gammer",
+        "img": "./assets/teclado.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "teclado luces led"
     },
     {
         "id": 9,
-        "name": "xbox one",
+        "name": "tv smart",
         "price": "usd 1000",
-        "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "category": "tv",
+        "img": "./assets/tvsmart50.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "tv smart 50"
     },
     {
         "id": 10,
-        "name": "xbox one",
+        "name": "mouse",
         "price": "usd 1000",
-        "category": "Games",
-        "img": "./assets/xbox.jfif",
+        "category": "pc",
+        "img": "./assets/mouse.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "Mouse gammer"
     }
 ]
