@@ -17,7 +17,7 @@ return (
                             <h4 className="card-title">Nombre:{products.name}</h4>
                             <p className="card-text">Categoria:{products.category}</p>
                             <p className="card-text">Precio:{products.price}</p> 
-                            <Link  className="btn btn-dark btn-compra" to={`/detail/${products.id}`}>Ver Detalles</Link>
+                            <Link  className="btn btn-dark btn-compra" to={`/item/${products.id}`}>Ver Detalles</Link>
                         </div>
                     </div>
                 </div>

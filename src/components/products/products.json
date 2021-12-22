@@ -3,81 +3,81 @@
         "id": 1,
         "name": "Tv Pantalla 49",
         "price": "usd 1000",
-        "category": "tv ",
+        "category": 1,
         "img": "./assets/tv.jfif",
         "stock": 25,
-        "description": "Smart 49"
+        "description": "Smart TV"
     },
     {
         "id": 2,
         "name": "speaker Bose",
         "price": "usd 800",
-        "category": "speaker",
+        "category": 2,
         "img": "assets/BOSE.jfif",
         "stock": 16,
-        "description": "Parlante"
+        "description": "Perifericos"
     },
     {
         "id": 3,
         "name": "xbox one",
         "price": "usd 1000",
-        "category": "Games",
+        "category": 3,
         "img": "./assets/xbox.jfif",
         "stock": 10,
-        "description": "consola de video juego"
+        "description": "Consolas"
     },
     {
         "id": 4,
         "name": "play",
         "price": "usd 1000",
-        "category": "Games",
+        "category": 4,
         "img": "./assets/play.jfif",
         "stock": 10,
-        "description": "consola play 4"
+        "description": "Consolas"
+    },
+    {
+        "id": 5,
+        "name": "play 5",
+        "price": "usd 1000",
+        "category":5,
+        "img": "./assets/play5.jfif",
+        "stock": 10,
+        "description": "Consolas"
     },
     {
         "id": 6,
-        "name": "play 5",
+        "name": "microfono",
         "price": "usd 1000",
-        "category": "Games",
-        "img": "./assets/play5.jfif",
+        "category":6,
+        "img": "./assets/microfono.jfif",
         "stock": 10,
-        "description": "consola play 5"
+        "description": "Perifericos"
     },
     {
         "id": 7,
-        "name": "microfono",
+        "name": "teclado",
         "price": "usd 1000",
-        "category": "pc-gammer",
-        "img": "./assets/microfono.jfif",
+        "category":7,
+        "img": "./assets/teclado.jfif",
         "stock": 10,
-        "description": "microfono "
+        "description": "Perifericos"
     },
     {
         "id": 8,
-        "name": "teclado",
+        "name": "tv smart",
         "price": "usd 1000",
-        "category": "pc-gammer",
-        "img": "./assets/teclado.jfif",
+        "category": 8,
+        "img": "./assets/tvsmart50.jfif",
         "stock": 10,
-        "description": "teclado luces led"
+        "description": "Smart TV"
     },
     {
         "id": 9,
-        "name": "tv smart",
-        "price": "usd 1000",
-        "category": "tv",
-        "img": "./assets/tvsmart50.jfif",
-        "stock": 10,
-        "description": "tv smart 50"
-    },
-    {
-        "id": 10,
         "name": "mouse",
         "price": "usd 1000",
-        "category": "pc",
+        "category": 9,
         "img": "./assets/mouse.jfif",
         "stock": 10,
-        "description": "Mouse gammer"
+        "description": "Pc Gamers"
     }
 ]
