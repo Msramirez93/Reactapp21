@@ -2,9 +2,17 @@ import products from './products.json';
 
 export const getProducts = () => {
     return new Promise((resolve, reject) => {
-        setTimeout(() => resolve(products), 3000)
+        setTimeout(() => resolve(products), 1000)
     })
 }
+export const getProductsById=(id)=>{
+    return new Promise ((resolve,reject)=>{
+        const product = products.find(prod => parseInt(prod.id) === parseInt(id))
+        setTimeout(()=>resolve(products),1000)
+    })
+}
+
+
 export const getItem = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {

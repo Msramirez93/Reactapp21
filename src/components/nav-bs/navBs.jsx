@@ -1,6 +1,6 @@
 import React from "react";
 import CartWidget from "./CartWidget";
-
+import { Link } from "react-router-dom";
 const NavBs = () =>{
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,14 +10,11 @@ const NavBs = () =>{
         <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul className="navbar-nav">
-        <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/#">Home</a>
-        </li>
-        <li className="nav-item">
-            <a className="nav-link" href="/#">Contactame</a>
-        </li>
-        </ul>
+        <div className="navbar-nav">
+            <Link to={'/'} className=" nav-item nav-link active" aria-current="page" >list</Link>
+            <Link to={'/detail'}className=" nav-item nav-link">Detail</Link>
+            <Link to={'/count'}className=" nav-item nav-link">Count</Link>
+        </div>
     </div>
     <CartWidget/>
     </div>

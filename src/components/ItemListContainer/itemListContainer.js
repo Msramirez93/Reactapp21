@@ -21,7 +21,7 @@ const [products, setProducts] = useState([])
     console.log(products)
     return (
         <div className="ItemListContainer" onClick={() => console.log('hice click en ItemListContainer')} >
-            <ItemList  products={products}/>
+            <ItemList  products={products} />
             
             {/*<ItemCount stock={10} initial={1}/>*/}
             
