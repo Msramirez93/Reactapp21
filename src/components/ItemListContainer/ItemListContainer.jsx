@@ -9,7 +9,9 @@ const ItemlistContainer= () =>{
     const [products, setProducts] = useState([]);
     const { categoryId } = useParams();
     const [hayProducto, setHayProduct] = useState(false);
-
+    const onResize=()=>{//events
+        console.log('tamaño de la ventana')
+    }
     useEffect(() => {
         getCategory(categoryId)
             .then((res) => {
@@ -23,7 +25,12 @@ const ItemlistContainer= () =>{
             .catch((err) => {
                 console.log(err);
             });
-    }, [categoryId]);
+            window.addEventListener('resize',onResize)
+    return(()=>{
+        window.removeEventListener('resize',onResize)
+    })
+    
+        }, [categoryId]);
 
     return (
         <div className="ItemListContainer">

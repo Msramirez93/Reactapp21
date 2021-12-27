@@ -1,4 +1,3 @@
-// card de bootstrap,card img,id,price,title
 import { Link } from "react-router-dom" ;   
 
 const Item = ({products}) => {

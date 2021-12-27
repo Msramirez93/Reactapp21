@@ -1,31 +1,33 @@
 import React, { useState, useEffect } from 'react';
-import { getProductsById } from '../products/products';
-import { useParams } from 'react-router-dom';
+import { getItem } from '../products/products';
 import ItemDetail from './ItemDetail';
 
 
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState([]);
-    const { paramId } = useParams();
-    console.log(paramId);
+    console.log(product)
     const [hayProducto, setHayProduct] = useState(false);
+    
+
 
     useEffect(() => {
-        getProductsById(paramId)
-            .then((item) => {
-                setProduct(item);
-                setHayProduct(true);
-            })
-            .catch((err) => {
-                console.log(err);
-            });
-        return () => {
-            setProduct();
-        };
-    }, [paramId]);
+        const list = getItem();
 
-    return <div>{hayProducto ? <ItemDetail product={product} /> : <div>Cargando...</div>}</div>;
+        list.then((item) => {
+            setProduct(item);
+            setHayProduct(true);
+        }).catch((err) => {
+            console.log(err);
+        });
+    }, []);
+
+
+    return <div>
+        {hayProducto ? <ItemDetail product={product} /> : <div>Cargando...</div>}
+    
+    </div>;
+
 };
 
 export default ItemDetailContainer

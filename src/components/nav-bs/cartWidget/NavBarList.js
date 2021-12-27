@@ -24,10 +24,10 @@ const NavBarList = ({ categories }) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <div className="navbar-nav">
-                <Link to={"/"}>ReactApp21</Link>
+                <Link to={"/"}>Electroplace</Link>
                 <ul>
                 {categories.map((category) => (
-                    <NavBarCategory key={category.id} category={category} />
+                    <NavBarCategory className="btn btn-dark btn-compra" key={category.id} category={category} />
                 ))}
                 </ul>
             </div>
